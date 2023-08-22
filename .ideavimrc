@@ -35,6 +35,8 @@ Plug 'vim-scripts/ReplaceWithRegister'
 map <leader>lr <Action>(RenameElement)
 map <leader>ld <Action>(ShowErrorDescription)
 map <leader>la <Action>(ShowIntentionActions)
+map ]d <Action>(GotoNextError)
+map [d <Action>(GotoPreviousError)
 map ]b <Action>(NextTab)
 map [b <Action>(PreviousTab)
 map <leader>ff <Action>(GotoFile)
